@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vince\\source\\repos\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
+    "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vince\\source\\repos\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
+    "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vince\\source\\repos\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
         "projectName": "ReservationHotel",
-        "projectPath": "C:\\Users\\Vince\\source\\repos\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "projectPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
         "packagesPath": "C:\\Users\\Vince\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vince\\source\\repos\\ReservationHotel\\ReservationHotel\\obj\\",
+        "outputPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vince\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,38 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
