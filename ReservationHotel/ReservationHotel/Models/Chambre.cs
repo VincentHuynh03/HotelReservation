@@ -49,6 +49,31 @@ namespace ReservationHotel.Models
         [Display(Name = "Prix de la chambre")]
         public decimal? Prix { get; set; }
 
+
+
+        [Required(ErrorMessage = "La maximum quantité de personne est obligatoire.")]
+        [Range(1, int.MaxValue, ErrorMessage = "La quantité doit être supérieure à zéro.")]
+        [Display(Name = "Maximum quantité de personnes")]
+        public int? MaxPersonne { get; set; }
+
+
+        [Required(ErrorMessage = "Une vue de la chambre est obligatoire.")]
+        [AllowHtml]
+        [DataType(DataType.Text)]
+        [Column(TypeName = "VARCHAR")]
+        [Display(Name = "Vue de la chambre")]
+        [MaxLength(6000, ErrorMessage = "La vue ne doit pas dépasser 6000 caractères.")]
+        public string? Vue { get; set; }
+
+
+
+
+
+
+
+
+
+
         public virtual ICollection<Reservation> Reservations { get; set; }
 
     }
