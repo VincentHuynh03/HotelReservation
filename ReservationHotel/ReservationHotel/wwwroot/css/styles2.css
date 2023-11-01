@@ -1,0 +1,257 @@
+/* Importation des polices depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; /* mise à jour de la police */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+nav ul.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav li:hover,
+#logo:hover {
+    color: #ff5a5f;
+    transition: color 0.3s;
+}
+
+@media (max-width: 768px) {
+    nav li, #logo {
+        font-size: 14px;  /* Réduisez la taille selon vos préférences */
+    }
+}
+
+/* Styles supplémentaires pour le contenu principal */
+main {
+    padding: 2rem;
+}
+
+#chambre-details,
+#reservation-form-section {
+    max-width: 100%; /* Ajouté - vous pouvez ajuster cette valeur selon vos préférences */
+    margin: 20px auto; /* Modifié - margin auto centre les sections horizontalement */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; /* Cela alignera les éléments en haut */
+}
+
+
+#chambre-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; /* Cela alignera les éléments en haut */
+    text-align: center; /* Ajouté */
+}
+
+.chambre-image,
+.chambre-info {
+    flex: 1;  /* Cela permettra à chaque élément d'occuper la moitié de l'espace disponible */
+    max-width: 50%; /* Cela limitera la largeur à 50% */
+}
+
+.chambre-image {
+    margin-right: 20px;
+    margin: auto; /* Ajouté */
+}
+
+.chambre-image img {
+    width: 100%;  /* Ajustez la largeur de l'image à 100% pour qu'elle remplisse la .chambre-image */
+    height: auto;  /* Cela maintiendra l'aspect ratio de l'image */
+    border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+
+    .chambre-image {
+        margin-right: 0px;
+        margin: auto; /* Ajouté */
+    }
+
+    #chambre-details {
+        flex-direction: column;
+        align-items: center;  /* Ajouté pour centrer les éléments */
+        text-align: center;  /* Ajouté pour centrer le texte */
+    }
+
+    .chambre-image,
+    .chambre-info {
+        max-width: 100%;  /* Permet à chaque élément d'occuper toute la largeur sur mobile */
+        margin: 0;  /* Réinitialise la marge */
+        padding: 0;  /* Réinitialise le padding */
+        box-sizing: border-box;  /* Assure que padding et border sont inclus dans la largeur/hauteur de l'élément */
+    }
+
+    #chambre-details,
+    #reservation-form-section {
+        max-width: 100%; /* Ajouté - vous pouvez ajuster cette valeur selon vos préférences */
+
+    }
+
+    .chambre-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* Centrer les éléments dans .chambre-info */
+    }
+}
+
+.chambre-info {
+    margin: auto; /* Ajouté */
+    display: inline-block; /* Ajouté */
+    margin-left: 20px;
+}
+
+.chambre-info h1,
+#reservation-form .form-group label {
+    color: #333;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+#reservation-form .form-group {
+    margin-bottom: 20px;
+}
+
+#reservation-form .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+}
+
+#reservation-form button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
+
+#reservation-form button:hover {
+    background-color: #e74c53;
+}
+
+/* Effet de survol pour les images */
+.chambre-image img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+#reservation-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  /* Ajouté pour ajouter de l'espace autour du formulaire */
+    /* ... autres styles ... */
+}
+
+#reservation-form {
+    font-size: 28px;
+    width: 100%; /* Ajouté pour s'assurer que le formulaire prend toute la largeur disponible */
+    max-width: 600px; /* Ajouté pour limiter la largeur maximale du formulaire */
+    padding: 20px; /* Ajouté pour ajouter de l'espace autour des champs du formulaire */
+    border: 1px solid #ccc; /* Ajouté pour ajouter une bordure autour du formulaire */
+    border-radius: 10px; /* Ajouté pour arrondir les coins du formulaire */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajouté pour ajouter une ombre douce autour du formulaire */
+    background-color: white; /* Ajouté pour un arrière-plan blanc */
+    text-align: center; /* Ajouté pour centrer les éléments du formulaire */
+    margin-bottom: 50px;
+}
+
+#reservation-form .form-group {
+    width: 100%;  /* Ajouté pour s'assurer que chaque groupe de formulaires prend toute la largeur disponible */
+    margin-bottom: 20px;  /* Déjà présent - Ajusté pour l'espacement entre les groupes de formulaires */
+}
+
+#reservation-form button {
+    width: 100%;  /* Ajouté pour faire en sorte que le bouton prenne toute la largeur du formulaire */
+    /* ... autres styles ... */
+}
+
+#reservation-form .form-group input {
+    width: 90%;  /* Ajusté pour que les champs de saisie occupent 90% de la largeur du formulaire */
+    font-size: 18px;  /* Ajusté pour augmenter la taille du texte */
+    text-align: center;  /* Centré le texte dans les champs de saisie */
+    /* ... autres styles ... */
+}
+
+#reservation-form .form-group input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 18px;  /* Ajusté pour augmenter la taille du bouton du calendrier */
+    background-size: 18px;  /* Ajusté pour augmenter la taille du bouton du calendrier */
+}
+
+@media (max-width: 768px) {
+    #reservation-form .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #reservation-form .form-group label,
+    #reservation-form .form-group input {
+        width: 100%;
+    }
+
+    #reservation-form {
+        padding: 10px;  /* Ajusté pour réduire le padding sur mobile */
+        border: none;  /* Enlève la bordure du formulaire sur mobile */
+        box-shadow: none;  /* Enlève l'ombre du formulaire sur mobile, si désiré */
+    }
+}

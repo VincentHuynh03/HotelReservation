@@ -1,8 +1,77 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Explorer";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="search-panel">
+    <h2>Recherchez votre chambre d'hôtel</h2>
+    <form action="/path/to/server-side/script" method="POST" id="search-form">
+        <div class="form-group">
+            <label for="checkin-date">Date d'arrivée:</label>
+            <input type="date" id="checkin-date" name="checkin" min="">
+        </div>
+        <div class="form-group">
+            <label for="checkout-date">Date de départ:</label>
+            <input type="date" id="checkout-date" name="checkout" min="">
+        </div>
+        <div class="form-group">
+            <label for="people">Nombre de personnes:</label>
+            <input type="number" id="people" name="people" min="1" max="10">
+        </div>
+        <div class="form-group centered-form-group">
+            <button type="submit">Rechercher</button>
+        </div>
+    </form>
 </div>
+<section id="chambres">
+    <div class="chambre-grid">
+        <div class="chambre-card">
+            <img src="~/images/chambre1.jpg" alt="Image de la chambre 1">
+            <div class="chambre-info">
+                <h3>Chambre Deluxe</h3>
+                <p>2 lits, vue sur la mer</p>
+                <p class="price">150$/nuit</p>
+            </div>
+        </div>
+        <div class="chambre-card">
+            <img src="~/images/chambre2.jpg" alt="Image de la chambre 2">
+            <div class="chambre-info">
+                <h3>Chambre Suite Royale</h3>
+                <p>3 lits, vue sur le jardin</p>
+                <p class="price">250$/nuit</p>
+            </div>
+        </div>
+        <div class="chambre-card">
+            <img src="~/images/chambre3.jpg" alt="Image de la chambre simple">
+            <div class="chambre-info">
+                <h3>Chambre Simple</h3>
+                <p>1 lit, vue sur la ville</p>
+                <p class="price">80$/nuit</p>
+            </div>
+        </div>
+        <div class="chambre-card">
+            <img src="~/images/chambre4.jpg" alt="Image de la chambre twin">
+            <div class="chambre-info">
+                <h3>Chambre Twin</h3>
+                <p>2 lits individuels, vue sur la cour</p>
+                <p class="price">110$/nuit</p>
+            </div>
+        </div>
+        <div class="chambre-card">
+            <img src="~/images/chambre5.jpg" alt="Image de la chambre familiale">
+            <div class="chambre-info">
+                <h3>Chambre Familiale</h3>
+                <p>4 lits, vue sur le parc</p>
+                <p class="price">200$/nuit</p>
+            </div>
+        </div>
+        <div class="chambre-card">
+            <img src="~/images/chambre6.jpg" alt="Image de la chambre double">
+            <div class="chambre-info">
+                <h3>Chambre Double</h3>
+                <p>2 lits doubles, vue sur la piscine</p>
+                <p class="price">140$/nuit</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="~/js/script.js"></script>
