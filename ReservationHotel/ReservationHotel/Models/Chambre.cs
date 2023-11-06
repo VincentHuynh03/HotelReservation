@@ -66,9 +66,16 @@ namespace ReservationHotel.Models
         public string? Vue { get; set; }
 
 
+        [Required(ErrorMessage = "La  quantité de lit est obligatoire.")]
+        [Range(1, int.MaxValue, ErrorMessage = "La quantité doit être supérieure à zéro.")]
+        [Display(Name = "Nombre de lit")]
+        public int? Lit { get; set; }
 
 
 
+        [DataType(DataType.ImageUrl)]
+        [Display(Name = "Photo de la chambre")]
+        public string? Photo { get; set; }
 
 
 

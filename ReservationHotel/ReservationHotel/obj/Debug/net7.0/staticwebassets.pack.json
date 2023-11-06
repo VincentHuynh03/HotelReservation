@@ -9,8 +9,52 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles2.css",
+      "PackagePath": "staticwebassets\\css\\styles2.css"
+    },
+    {
       "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre1.jpg",
+      "PackagePath": "staticwebassets\\images\\chambre1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre2.jpg",
+      "PackagePath": "staticwebassets\\images\\chambre2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre3.jpg",
+      "PackagePath": "staticwebassets\\images\\chambre3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre4.jpg",
+      "PackagePath": "staticwebassets\\images\\chambre4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre5.jpg",
+      "PackagePath": "staticwebassets\\images\\chambre5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre6.jpg",
+      "PackagePath": "staticwebassets\\images\\chambre6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\logo_FreeRooms.png",
+      "PackagePath": "staticwebassets\\images\\logo_FreeRooms.png"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\script2.js",
+      "PackagePath": "staticwebassets\\js\\script2.js"
     },
     {
       "Id": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\site.js",
