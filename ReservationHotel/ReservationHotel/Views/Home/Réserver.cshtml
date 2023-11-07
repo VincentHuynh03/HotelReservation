@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Réserver";
+}
+
+<main>
+    <section id="chambre-details">
+        <div class="chambre-image">
+            <img src="~/images/chambre1.jpg" alt="Image de la Chambre Deluxe">
+        </div>
+        <div class="chambre-info">
+            <h1>Chambre Deluxe</h1>
+            <p>2 lits, vue sur la mer - 150$/nuit</p>
+            <p class="description">
+                Bienvenue dans notre Chambre Deluxe de 40 m², mélange de confort et d'élégance avec une vue imprenable sur la mer. Profitez de lits confortables, d'une salle de bain privée luxueuse, d'une TV à écran plat, du Wi-Fi gratuit, d'un minibar bien approvisionné et d'un bureau spacieux. Notre service en chambre est disponible 24h/24 pour répondre à vos besoins. Réservez maintenant pour un séjour relaxant et inoubliable.
+            </p>
+        </div>
+    </section>
+    <section id="reservation-form-section">
+        <form id="reservation-form">
+            <div class="form-group">
+                <label for="checkin-date">Date d'arrivée:</label>
+                <input type="date" id="checkin-date" name="checkin" min="" max="">
+            </div>
+            <div class="form-group">
+                <label for="checkout-date">Date de départ:</label>
+                <input type="date" id="checkout-date" name="checkout" min="" max="">
+            </div>
+            <div class="form-group">
+                <label>Nombre de Nuits:</label>
+                <span id="number-of-nights"></span>
+            </div>
+            <div class="form-group">
+                <label>Estimation Prix:</label>
+                <span id="estimation-price"></span>
+            </div>
+            <div class="form-group">
+                <label>Estimation Taxes:</label>
+                <span id="estimation-taxes"></span>
+            </div>
+            <div class="form-group">
+                <label>Total:</label>
+                <span id="total-price"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit">Réserver</button>
+            </div>
+        </form>
+    </section>
+</main>
+<script src="~/js/script2.js"></script>
