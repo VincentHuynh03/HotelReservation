@@ -1,0 +1,84 @@
+[33mcommit 16abe0d028bddfa61acb80b561ea39b41e7b8442[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/Samuel[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Samuel <1977223@crosemont.qc.ca>
+Date:   Mon Nov 6 22:17:16 2023 -0500
+
+    FrontEnd: Gestion Réservation + Réserver
+
+[33mcommit 6e48b70591c6f5264c95a05a1f8016a3c4ba3657[m
+Author: Samuel <1977223@crosemont.qc.ca>
+Date:   Mon Nov 6 22:13:26 2023 -0500
+
+    FrontEnd: Pages Gestions: Réservations/Utilisateurs/Chambres
+
+[33mcommit d1afed514cdac7eed6d3135e9771cd36a4087b36[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Mon Nov 6 12:47:33 2023 -0500
+
+    Base de donnée Générer, Tous Controleurs Générerer, Mis à jour des packages
+
+[33mcommit 91ce15fccb5f15fe3c328082b9f06b3cbd469b28[m
+Author: Samuel <1977223@crosemont.qc.ca>
+Date:   Wed Nov 1 01:20:44 2023 -0400
+
+    Page Explorer et Page Réservation (html/css/img/js)
+
+[33mcommit 7741fc4e314197e63fc66b3634cf8b2b37baccca[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Fri Oct 27 16:48:17 2023 -0400
+
+    Ajout de colonne vue, lit et max Personne dans chambre.cs
+
+[33mcommit c4de7b1778f3d34c0de91e47348b5ea032fb713a[m
+Merge: c181327 0d1826b
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Thu Oct 26 19:41:33 2023 -0400
+
+     merge vincent
+
+[33mcommit c181327dc5b43b06750ebf3ad48231cd59712011[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Thu Oct 26 19:16:11 2023 -0400
+
+    branche vincent into main
+
+[33mcommit 0d1826bb2688e050f637d2e378c8ad88118d6b80[m[33m ([m[1;31morigin/Vincent[m[33m)[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Thu Oct 26 19:15:29 2023 -0400
+
+    update
+
+[33mcommit 39dff518229b4c69260fe7bc92f30a109018d777[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Mon Oct 23 14:44:03 2023 -0400
+
+    Fix des 2 commits précédentes ( Classe modèles et Validations)
+
+[33mcommit df1f501aa5c4b6028e65d015a6305aba208dad36[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Mon Oct 23 14:36:13 2023 -0400
+
+    Ajout de la validation des classes modèles
+
+[33mcommit 5fe74101331811b4209462d88e706a1835faa46f[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Mon Oct 23 14:17:16 2023 -0400
+
+     Ajout des classes modèles
+
+[33mcommit d43bc45614aed4730d2c29eff97ea6bbced0d101[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Mon Oct 23 13:55:25 2023 -0400
+
+    Ajout de packages
+
+[33mcommit bb6034e6b295eccfb29c0cfcf10b7d571dc8ed68[m
+Author: VincentHuynh03 <vincentgamer2213@outlook.com>
+Date:   Mon Oct 23 13:48:57 2023 -0400
+
+    Creation du projet
+
+[33mcommit 14e9cb7518775a89bdbfc9ce5923f2ba30c0815d[m
+Author: Audric Ligtas <aligtas@dept-info.crosemont.quebec>
+Date:   Wed Oct 18 19:19:05 2023 +0000
+
+    Initial commit

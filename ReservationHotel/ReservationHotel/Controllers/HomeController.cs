@@ -27,7 +27,7 @@ namespace ReservationHotel.Controllers
         {
             return View();
         }
-        
+
         public IActionResult GestionChambres()
         {
             return View();
@@ -38,6 +38,10 @@ namespace ReservationHotel.Controllers
             return View();
         }
 
+        public IActionResult ServiceClientèle()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

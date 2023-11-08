@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
+    "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
+    "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "projectUniqueName": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
         "projectName": "ReservationHotel",
-        "projectPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
-        "packagesPath": "C:\\Users\\Vince\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
+        "projectPath": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "packagesPath": "C:\\Users\\Ligtas\\.nuget\\packages\\",
+        "outputPath": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ligtas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -108,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
