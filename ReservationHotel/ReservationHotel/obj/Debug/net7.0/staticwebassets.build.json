@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qgqKlz7UihAtAUx1U0ZoEwIQzz4PorQwkBoOOtuQkZ4=",
+  "Hash": "q+jdpIeXpJnLwRynNhadTiMvyydaCCUZWROld2zKTmE=",
   "Source": "ReservationHotel",
   "BasePath": "_content/ReservationHotel",
   "Mode": "Default",
@@ -1120,23 +1120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles2.css"
-    },
-    {
-      "Identity": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles3.css",
-      "SourceId": "ReservationHotel",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\",
-      "BasePath": "_content/ReservationHotel",
-      "RelativePath": "css/styles3.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles3.css"
     },
     {
       "Identity": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\favicon.ico",

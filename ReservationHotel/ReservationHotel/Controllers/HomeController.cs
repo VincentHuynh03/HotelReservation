@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ReservationHotel.Models;
 using System.Diagnostics;
 
@@ -6,21 +7,38 @@ namespace ReservationHotel.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        // GET: Chambres
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return _context.Chambres != null ?
+                        View(await _context.Chambres.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Chambres'  is null.");
         }
 
-        public IActionResult Réserver()
+        // GET: Chambres/Réserver/5
+        public async Task<IActionResult> Réserver(int? id)
         {
-            return View();
+            if (id == null || _context.Chambres == null)
+            {
+                return NotFound();
+            }
+
+            var chambre = await _context.Chambres
+                .FirstOrDefaultAsync(m => m.ChambreId == id);
+            if (chambre == null)
+            {
+                return NotFound();
+            }
+
+            return View(chambre);
         }
 
         public IActionResult ServiceClientèle()

@@ -24,54 +24,19 @@
 </div>
 <section id="chambres">
     <div class="chambre-grid">
+        <!-- Début -->
+        @foreach (var item in Model) {
         <div class="chambre-card">
-            <img src="~/images/chambre1.jpg" alt="Image de la chambre 1">
-            <div class="chambre-info">
-                <h3>Chambre Deluxe</h3>
-                <p>2 lits, vue sur la mer</p>
-                <p class="price">150$/nuit</p>
-            </div>
+            <a href="@Url.Action("Réserver", "Home", new { id = item.ChambreId })" class="chambre-card-link">
+                <img src="@Url.Content(item.Photo)" alt="Chambre">
+                <div class="chambre-info">
+                    <h3>Chambre @item.TypeChambre</h3>
+                    <p>@item.Lit lit(s), @item.Vue</p>
+                    <p class="price">@item.Prix$/nuit</p>
+                </div>
+            </a>
         </div>
-        <div class="chambre-card">
-            <img src="~/images/chambre2.jpg" alt="Image de la chambre 2">
-            <div class="chambre-info">
-                <h3>Chambre Suite Royale</h3>
-                <p>3 lits, vue sur le jardin</p>
-                <p class="price">250$/nuit</p>
-            </div>
-        </div>
-        <div class="chambre-card">
-            <img src="~/images/chambre3.jpg" alt="Image de la chambre simple">
-            <div class="chambre-info">
-                <h3>Chambre Simple</h3>
-                <p>1 lit, vue sur la ville</p>
-                <p class="price">80$/nuit</p>
-            </div>
-        </div>
-        <div class="chambre-card">
-            <img src="~/images/chambre4.jpg" alt="Image de la chambre twin">
-            <div class="chambre-info">
-                <h3>Chambre Twin</h3>
-                <p>2 lits individuels, vue sur la cour</p>
-                <p class="price">110$/nuit</p>
-            </div>
-        </div>
-        <div class="chambre-card">
-            <img src="~/images/chambre5.jpg" alt="Image de la chambre familiale">
-            <div class="chambre-info">
-                <h3>Chambre Familiale</h3>
-                <p>4 lits, vue sur le parc</p>
-                <p class="price">200$/nuit</p>
-            </div>
-        </div>
-        <div class="chambre-card">
-            <img src="~/images/chambre6.jpg" alt="Image de la chambre double">
-            <div class="chambre-info">
-                <h3>Chambre Double</h3>
-                <p>2 lits doubles, vue sur la piscine</p>
-                <p class="price">140$/nuit</p>
-            </div>
-        </div>
+        }
     </div>
 </section>
 <script src="~/js/script.js"></script>

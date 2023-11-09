@@ -183,3 +183,15 @@ nav li:hover,
         font-size: 14px;  /* Réduisez la taille selon vos préférences */
     }
 }
+
+.chambre-card-link {
+    text-decoration: none; /* Enlève le soulignement */
+    color: inherit; /* Le texte prend la couleur héritée du parent */
+}
+
+.chambre-card-link:hover,
+.chambre-card-link:visited,
+.chambre-card-link:active {
+    text-decoration: none;
+    color: inherit;
+}
