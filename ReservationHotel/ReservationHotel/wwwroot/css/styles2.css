@@ -431,4 +431,13 @@ main {
         width: 100%; /* Pleine largeur pour les boutons */
         margin: 5px 0; /* Espacement entre les boutons */
     }
+
+    .form_modifier, .form_supprimer {
+        width: 100%; /* Pleine largeur pour les boutons */
+        margin: 5px 0; /* Espacement entre les boutons */
+    }
+}
+
+.back {
+    margin-bottom: 100px;
 }

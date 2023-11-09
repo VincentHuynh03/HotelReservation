@@ -4,50 +4,40 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prenom)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MotDePasse)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nom)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Prenom)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MotDePasse)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Utilisateurs</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="divAjouter">
+        <h1>Gestion des Utilisateurs</h1>
+        <form>
+            <button class="add-room-btn" asp-action="Create">Ajouter un utilisateur</button>
+        </form>
+    </div>
+    <div class="rooms-container">
+        <!-- Début -->
+        @foreach (var item in Model) {
+        <div class="room-item">
+            <div class="room-details">
+                    <p class="room-name">ID: @item.UserId</p>
+                    <p class="room-name">Nom: @item.Nom</p>
+                    <p class="room-name">Prenom: @item.Prenom</p>
+                    <p class="room-name">Email: @item.Email</p>
+                    <p class="room-name">MotDePasse: @item.MotDePasse</p>
+            </div>
+            <form class="form_modifier">
+                    <button class="edit-room" asp-action="Edit" asp-route-id="@item.UserId">Modifier</button>
+            </form>
+            <form class="form_supprimer">
+                    <button class="delete-room" asp-action="Delete" asp-route-id="@item.UserId">Supprimer</button>
+            </form>
+        </div>
+        }
+    </div>
+</body>
+</html>

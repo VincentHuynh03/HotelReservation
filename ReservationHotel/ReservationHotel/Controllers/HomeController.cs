@@ -23,21 +23,6 @@ namespace ReservationHotel.Controllers
             return View();
         }
 
-        public IActionResult GestionRéservation()
-        {
-            return View();
-        }
-
-        public IActionResult GestionChambres()
-        {
-            return View();
-        }
-
-        public IActionResult GestionUtilisateurs()
-        {
-            return View();
-        }
-
         public IActionResult ServiceClientèle()
         {
             return View();

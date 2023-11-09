@@ -16,48 +16,43 @@
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
-                    Photo = "img/chambre1.jpg"
+                    Photo = "~/images/chambre1.jpg"
                 },
-
-
-
-              
-
                 new Chambre
                 {
                     NumeroChambre = "102",
-                    Description = "Description de la chambre 105",
+                    Description = "Description de la chambre 102",
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
-                    Prix = 100.00m,
+                    Prix = 110.00m,
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
-                    Photo = "img/chambre2.jpg"
+                    Photo = "~/images/chambre2.jpg"
                 },
              new Chambre
                 {
                     NumeroChambre = "103",
-                    Description = "Description de la chambre 105",
+                    Description = "Description de la chambre 103",
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
-                    Prix = 100.00m,
+                    Prix = 120.00m,
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
-                   Photo = "img/chambre3.jpg"
+                   Photo = "~/images/chambre3.jpg"
                 },
            new Chambre
                 {
                     NumeroChambre = "104",
-                    Description = "Description de la chambre 105",
+                    Description = "Description de la chambre 104",
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
-                    Prix = 100.00m,
+                    Prix = 130.00m,
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
-                    Photo = "img/chambre4.jpg"
+                    Photo = "~/images/chambre4.jpg"
                 },
            new Chambre
                 {
@@ -65,11 +60,11 @@
                     Description = "Description de la chambre 105",
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
-                    Prix = 100.00m,
+                    Prix = 140.00m,
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
-                    Photo = "img/chambre5.jpg"
+                    Photo = "~/images/chambre5.jpg"
                 },
 
 

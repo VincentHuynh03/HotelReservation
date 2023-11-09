@@ -4,56 +4,35 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.DateDebut)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateFin)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Annuler)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Utilisateur)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Chambre)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateDebut)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateFin)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Annuler)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Utilisateur.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Chambre.Description)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ReservationId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ReservationId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ReservationId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Réservations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="reservations-title">
+        <h1>Mes Réservations</h1>
+    </div>
+    <div class="rooms-container">
+        <!-- Début -->
+        @foreach (var item in Model) {
+        <div class="room-item">
+            <img src="@Url.Content(item.Chambre.Photo)" alt="Chambre" class="room-image" />
+            <div class="room-details">
+                <p class="room-name">Numéro: @item.Chambre.NumeroChambre</p>
+                    <p class="room-name">Date d'arrivée: @item.DateDebut</p>
+                    <p class="room-name">Date de départ: @item.DateFin</p>
+                <p class="room-beds">Lits: @item.Chambre.Lit</p>
+                <p class="room-view">Vue: @item.Chambre.Vue</p>
+            </div>
+            <form class="form_supprimer">
+                    <button class="delete-room" asp-action="Delete" asp-route-id="@item.ReservationId">Annuler</button>
+            </form>
+        </div>
+        }
+    </div>
+</body>
+</html>

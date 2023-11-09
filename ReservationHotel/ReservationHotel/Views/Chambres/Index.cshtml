@@ -4,80 +4,41 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Chambres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="divAjouter">
+        <h1>Gestion des Chambres</h1>
+        <form>
+            <button class="add-room-btn" asp-action="Create">Ajouter une chambre</button>
+        </form>
+    </div>
+    <div class="rooms-container">
+        <!-- Début -->
+        @foreach (var item in Model) {
+        <div class="room-item">
+            <img src="@Url.Content(item.Photo)" alt="Chambre" class="room-image" />
+            <div class="room-details">
+                <p class="room-name">Numéro: @item.NumeroChambre</p>
+                <p class="room-price">Prix par nuit: @item.Prix$</p>
+                <p class="room-beds">Lits: @item.Lit</p>
+                <p class="room-view">Vue: @item.Vue</p>
+            </div>
+            <form class="form_modifier">
+                <button class="edit-room" asp-action="Edit" asp-route-id="@item.ChambreId">Modifier</button>
+            </form>
+                <form class="form_supprimer">
+                <button class="delete-room" asp-action="Delete" asp-route-id="@item.ChambreId">Supprimer</button>
+            </form>
+        </div>
+        }
+    </div>
+</body>
+</html>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NumeroChambre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TypeChambre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.QuantitePersonnes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prix)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaxPersonne)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Vue)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Lit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Photo)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumeroChambre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TypeChambre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.QuantitePersonnes)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Prix)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MaxPersonne)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Vue)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Lit)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Photo)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ChambreId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ChambreId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ChambreId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
