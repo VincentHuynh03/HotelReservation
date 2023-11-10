@@ -16,11 +16,19 @@ namespace ReservationHotel.Controllers
         }
 
         // GET: Chambres
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? maxPeople)
         {
-            return _context.Chambres != null ?
-                        View(await _context.Chambres.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDbContext.Chambres'  is null.");
+            IQueryable<Chambre> chambresQuery = _context.Chambres;
+
+            // Apply the filter based on the maximum number of people
+            if (maxPeople.HasValue)
+            {
+                chambresQuery = chambresQuery.Where(c => c.MaxPersonne >= maxPeople.Value);
+            }
+
+            var chambres = await chambresQuery.ToListAsync();
+
+            return View(chambres);
         }
 
         // GET: Chambres/Réserver/5

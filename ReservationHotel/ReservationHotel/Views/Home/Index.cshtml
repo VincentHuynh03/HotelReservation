@@ -4,7 +4,7 @@
 
 <div id="search-panel">
     <h2>Recherchez votre chambre d'hôtel</h2>
-    <form action="/path/to/server-side/script" method="POST" id="search-form">
+    <form action="@Url.Action("Index", "Home")" method="GET" id="search-form">
         <div class="form-group">
             <label for="checkin-date">Date d'arrivée:</label>
             <input type="date" id="checkin-date" name="checkin" min="">
@@ -14,8 +14,8 @@
             <input type="date" id="checkout-date" name="checkout" min="">
         </div>
         <div class="form-group">
-            <label for="people">Nombre de personnes:</label>
-            <input type="number" id="people" name="people" min="1" max="10">
+            <label for="max-people">Nombre de personnes:</label>
+            <input type="number" id="max-people" name="maxPeople" min="1" max="10">
         </div>
         <div class="form-group centered-form-group">
             <button type="submit">Rechercher</button>
@@ -27,8 +27,8 @@
         <!-- Début -->
         @foreach (var item in Model) {
         <div class="chambre-card">
-            <a href="@Url.Action("Réserver", "Home", new { id = item.ChambreId })" class="chambre-card-link">
-                <img src="@Url.Content(item.Photo)" alt="Chambre">
+                <a href="@Url.Action("Réserver", "Home", new { id = item.ChambreId, maxPeople = item.MaxPersonne })" class="chambre-card-link">
+                    <img src="@Url.Content(item.Photo)" alt="Chambre">
                 <div class="chambre-info">
                     <h3>Chambre @item.TypeChambre</h3>
                     <p>@item.Lit lit(s), @item.Vue</p>

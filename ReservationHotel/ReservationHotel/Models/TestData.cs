@@ -37,7 +37,7 @@
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
                     Prix = 120.00m,
-                    MaxPersonne = 1,
+                    MaxPersonne = 5,
                     Vue = "Vue sur la mer",
                     Lit = 1,
                    Photo = "~/images/chambre3.jpg"
@@ -49,7 +49,7 @@
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
                     Prix = 130.00m,
-                    MaxPersonne = 1,
+                    MaxPersonne = 4,
                     Vue = "Vue sur la mer",
                     Lit = 1,
                     Photo = "~/images/chambre4.jpg"
@@ -61,7 +61,7 @@
                     TypeChambre = "Simple",
                     QuantitePersonnes = 1,
                     Prix = 140.00m,
-                    MaxPersonne = 1,
+                    MaxPersonne = 2,
                     Vue = "Vue sur la mer",
                     Lit = 1,
                     Photo = "~/images/chambre5.jpg"

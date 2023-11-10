@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
+    "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
+    "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
         "projectName": "ReservationHotel",
-        "projectPath": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
-        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
+        "projectPath": "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "packagesPath": "C:\\Users\\Vince\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vince\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
