@@ -5,13 +5,13 @@
 <main>
     <section id="chambre-details">
         <div class="chambre-image">
-            <img src="~/images/chambre1.jpg" alt="Image de la Chambre Deluxe">
+            <img src="@Url.Content(Model.Photo)" alt="Chambre">
         </div>
         <div class="chambre-info">
-            <h1>Chambre Deluxe</h1>
-            <p>2 lits, vue sur la mer - 150$/nuit</p>
+            <h1>Chambre @Model.TypeChambre</h1>
+            <p>@Model.Lit lit(s), @Model.Vue - @Model.Prix$/nuit</p>
             <p class="description">
-                Bienvenue dans notre Chambre Deluxe de 40 m², mélange de confort et d'élégance avec une vue imprenable sur la mer. Profitez de lits confortables, d'une salle de bain privée luxueuse, d'une TV à écran plat, du Wi-Fi gratuit, d'un minibar bien approvisionné et d'un bureau spacieux. Notre service en chambre est disponible 24h/24 pour répondre à vos besoins. Réservez maintenant pour un séjour relaxant et inoubliable.
+                @Model.Description
             </p>
         </div>
     </section>
