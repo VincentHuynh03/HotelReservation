@@ -9,14 +9,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supprimer Chambre</title>
+    <title>Supprimer une Chambre</title>
     <link rel="stylesheet" href="~/css/styles3.css">
     <style>
         .detail-label {
             font-weight: bold;
             color: #333;
             margin-bottom: 5px;
+            text-align: center;
         }
+
         .detail-value {
             background-color: #f7f7f7;
             padding: 10px;
@@ -24,7 +26,9 @@
             border-radius: 4px;
             margin-bottom: 20px;
         }
+
         .btn-danger {
+            margin-top: 25px;
             background-color: #dc3545;
             color: white;
             border-radius: 4px;
@@ -32,37 +36,30 @@
             border: none;
             cursor: pointer;
             transition: background-color 0.3s;
+            width: 100%;
         }
-        .btn-danger:hover {
-            background-color: #c82333;
+
+            .btn-danger:hover {
+                background-color: #c82333;
+            }
+
+        .description-detail-value {
+            min-height: 100px; /* hauteur minimal description */
+            width: 100%; /* toute largeur */
+            overflow: auto; /* gérer text long */
         }
-        .back2 {
-            color: #007bff;
-            text-decoration: none;
-            padding: 8px 12px;
-            border: 2px solid #007bff;
-            border-radius: 4px;
-            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-        }
-        .back2:hover {
-            color: #0056b3;
-            border-color: #0056b3;
-            background-color: #e7f3ff;
-        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Supprimer Chambre</h1>
-        <h3>Êtes-vous sûr de vouloir supprimer cet élément ?</h3>
+        <h1>Supprimer une Chambre</h1>
         <hr />
         <div class="row">
             <div class="col">
+                <!-- Première Colonne -->
                 <div class="detail-label">@Html.DisplayNameFor(model => model.NumeroChambre)</div>
                 <div class="detail-value">@Html.DisplayFor(model => model.NumeroChambre)</div>
-
-                <div class="detail-label">@Html.DisplayNameFor(model => model.Description)</div>
-                <div class="detail-value">@Html.DisplayFor(model => model.Description)</div>
 
                 <div class="detail-label">@Html.DisplayNameFor(model => model.TypeChambre)</div>
                 <div class="detail-value">@Html.DisplayFor(model => model.TypeChambre)</div>
@@ -72,7 +69,9 @@
 
                 <div class="detail-label">@Html.DisplayNameFor(model => model.Prix)</div>
                 <div class="detail-value">@Html.DisplayFor(model => model.Prix)</div>
-
+            </div>
+            <div class="col">
+                <!-- Deuxième Colonne -->
                 <div class="detail-label">@Html.DisplayNameFor(model => model.MaxPersonne)</div>
                 <div class="detail-value">@Html.DisplayFor(model => model.MaxPersonne)</div>
 
@@ -85,13 +84,19 @@
                 <div class="detail-label">@Html.DisplayNameFor(model => model.Photo)</div>
                 <div class="detail-value">@Html.DisplayFor(model => model.Photo)</div>
             </div>
+
+            <div class="detail-label">@Html.DisplayNameFor(model => model.Description)</div>
+            <div class="detail-value description-detail-value">@Html.DisplayFor(model => model.Description)</div>
+
         </div>
-        
+
         <form asp-action="Delete" class="form-group text-center">
             <input type="hidden" asp-for="ChambreId" />
             <input type="submit" value="Supprimer" class="btn btn-danger" />
-            <a asp-action="Index" class="back2">Retour à la liste</a>
         </form>
+        <div class="back2">
+            <a asp-action="Index">Retour à la liste</a>
+        </div>
     </div>
 
     @section Scripts {

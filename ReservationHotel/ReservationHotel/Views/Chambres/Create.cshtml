@@ -11,6 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter une Chambre</title>
     <link rel="stylesheet" href="~/css/styles3.css">
+    <style>
+        .description-detail-value {
+            min-height: 100px; /* hauteur minimal description */
+            width: 100%; /* toute largeur */
+            overflow: auto; /* gérer text long */
+        }
+    </style>
 </head>
 <body>
     <div class="container" >
@@ -23,11 +30,6 @@
                         <label asp-for="NumeroChambre" class="control-label"></label>
                         <input asp-for="NumeroChambre" class="form-control" />
                         <span asp-validation-for="NumeroChambre" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Description" class="control-label"></label>
-                        <input asp-for="Description" class="form-control" />
-                        <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="TypeChambre" class="control-label"></label>
@@ -67,6 +69,11 @@
                         <span asp-validation-for="Photo" class="text-danger"></span>
                     </div>
                 </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control description-detail-value"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group text-center">
                 <input type="submit" value="Ajouter" class="btn btn-primary" />
