@@ -64,6 +64,8 @@ namespace ReservationHotel.Migrations
                     MaxPersonne = table.Column<int>(type: "int", nullable: false),
                     Vue = table.Column<string>(type: "VARCHAR(6000)", maxLength: 6000, nullable: false),
                     Lit = table.Column<int>(type: "int", nullable: false),
+                    CheckIn = table.Column<DateTime>(type: "DateTime", nullable: false),
+                    CheckOut = table.Column<DateTime>(type: "DateTime", nullable: false),
                     Photo = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>

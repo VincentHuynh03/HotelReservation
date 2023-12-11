@@ -1192,3 +1192,13 @@ C:\Users\Vince\ProjetAppWeb3AudrikSamuelVincent\porjetappweb3audricsamuelvincent
 C:\Users\Vince\ProjetAppWeb3AudrikSamuelVincent\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ReservationHotel.pdb
 C:\Users\Vince\ProjetAppWeb3AudrikSamuelVincent\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ReservationHotel.genruntimeconfig.cache
 C:\Users\Vince\ProjetAppWeb3AudrikSamuelVincent\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ref\ReservationHotel.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\libman.json
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ReservationHotel.MvcApplicationPartsAssemblyInfo.cs

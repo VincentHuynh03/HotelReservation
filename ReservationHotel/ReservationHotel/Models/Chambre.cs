@@ -70,6 +70,13 @@ namespace ReservationHotel.Models
         [Range(1, int.MaxValue, ErrorMessage = "La quantité doit être supérieure à zéro.")]
         [Display(Name = "Nombre de lit")]
         public int? Lit { get; set; }
+        [Required(ErrorMessage = "La date de début de la chambre est obligatoire.")]
+        [DataType(DataType.Date)]
+        public DateTime? CheckIn { get; set; }
+
+        [Required(ErrorMessage = "La date de fin de la chambre est obligatoire.")]
+        [DataType(DataType.Date)]
+        public DateTime? CheckOut { get; set; }
 
 
 

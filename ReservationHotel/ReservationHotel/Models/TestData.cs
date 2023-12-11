@@ -16,6 +16,8 @@
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
+                    CheckIn = DateTime.Now.AddDays(0),
+                    CheckOut = DateTime.Now.AddDays(5),
                     Photo = "~/images/chambre1.jpg"
                 },
                 new Chambre
@@ -28,6 +30,8 @@
                     MaxPersonne = 1,
                     Vue = "Vue sur la mer",
                     Lit = 1,
+                    CheckIn = DateTime.Now.AddDays(1),
+                    CheckOut = DateTime.Now.AddDays(5),
                     Photo = "~/images/chambre2.jpg"
                 },
              new Chambre
@@ -40,7 +44,9 @@
                     MaxPersonne = 5,
                     Vue = "Vue sur la mer",
                     Lit = 1,
-                   Photo = "~/images/chambre3.jpg"
+                    CheckIn = DateTime.Now.AddDays(0),
+                    CheckOut = DateTime.Now.AddDays(5),
+                    Photo = "~/images/chambre3.jpg"
                 },
            new Chambre
                 {
@@ -52,6 +58,8 @@
                     MaxPersonne = 4,
                     Vue = "Vue sur la mer",
                     Lit = 1,
+                    CheckIn = DateTime.Now.AddDays(0),
+                    CheckOut = DateTime.Now.AddDays(8),
                     Photo = "~/images/chambre4.jpg"
                 },
            new Chambre
@@ -64,6 +72,8 @@
                     MaxPersonne = 2,
                     Vue = "Vue sur la mer",
                     Lit = 1,
+                    CheckIn = DateTime.Now.AddDays(0),
+                    CheckOut = DateTime.Now.AddDays(10),
                     Photo = "~/images/chambre5.jpg"
                 },
 

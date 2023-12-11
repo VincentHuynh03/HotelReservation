@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
+    "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
+    "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
         "projectName": "ReservationHotel",
-        "projectPath": "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+        "projectPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
         "packagesPath": "C:\\Users\\Vince\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vince\\ProjetAppWeb3AudrikSamuelVincent\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
+        "outputPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vince\\AppData\\Roaming\\NuGet\\NuGet.Config",

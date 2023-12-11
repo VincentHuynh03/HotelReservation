@@ -12,7 +12,7 @@ using ReservationHotel.Models;
 namespace ReservationHotel.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231109014024_InitialCreate")]
+    [Migration("20231210225941_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -235,6 +235,14 @@ namespace ReservationHotel.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ChambreId"));
 
+                    b.Property<DateTime?>("CheckIn")
+                        .IsRequired()
+                        .HasColumnType("DateTime");
+
+                    b.Property<DateTime?>("CheckOut")
+                        .IsRequired()
+                        .HasColumnType("DateTime");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(6000)
@@ -401,13 +409,13 @@ namespace ReservationHotel.Migrations
             modelBuilder.Entity("ReservationHotel.Models.Reservation", b =>
                 {
                     b.HasOne("ReservationHotel.Models.Chambre", "Chambre")
-                        .WithMany("Reservations")
+                        .WithMany()
                         .HasForeignKey("ChambreId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ReservationHotel.Models.Utilisateur", "Utilisateur")
-                        .WithMany("Reservations")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -415,16 +423,6 @@ namespace ReservationHotel.Migrations
                     b.Navigation("Chambre");
 
                     b.Navigation("Utilisateur");
-                });
-
-            modelBuilder.Entity("ReservationHotel.Models.Chambre", b =>
-                {
-                    b.Navigation("Reservations");
-                });
-
-            modelBuilder.Entity("ReservationHotel.Models.Utilisateur", b =>
-                {
-                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }
