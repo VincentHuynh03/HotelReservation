@@ -1,14 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using ReservationHotel.Models;
-using ReservationHotel.Models.Hubs;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http;
+using ReservationHotel.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 //Add signalR
 builder.Services.AddSignalR();
 
@@ -83,7 +82,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-//app.MapHub<ChatHub>("/chatHub");
-app.MapHub<AskHub>("/askHub");
+app.MapHub<AskHub>("/Home/ServiceClientèle/askHub");
 app.MapRazorPages();
 app.Run();

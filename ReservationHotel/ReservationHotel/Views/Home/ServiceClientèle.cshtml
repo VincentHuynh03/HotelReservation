@@ -1,27 +1,18 @@
 ﻿@page
 <div class="container">
-    <div>
-        <div>User</div>
-        <div><input type="text" id="userInput" /></div>
-    </div>
-    <div>
-        <label for="broadcast">Message</label>
-        <input type="text" id="broadcast" name="broadcast" />
-    </div>
-    <div>
-        <div>
-            <button id="btn-broadcast">Diffuser</button>
+    <div class="row" style="padding-top: 50px;">
+        <div class="col-md-4">
+            <div class="control-group">
+                <div>
+                    <label for="broadcast">Message</label>
+                    <input type="text" id="broadcast" name="broadcast" />
+                </div>
+                <button id="btn-broadcast">Diffuser</button>
+            </div>
         </div>
-    </div>
-    <div class="row p-1">
-        <div class="col-6">
-            <hr />
+        <div class="col-md-7">
+            <p>Messages SignalR :</p>
+            <pre id="signalr-message-panel"></pre>
         </div>
-    </div>
-    <div>
-        <p>Messages SignalR :</p>
-        <pre id="signalr-message-panel"></pre>
     </div>
 </div>
-<script src="~/js/signalr/dist/browser/signalr.js"></script>
-<script src="~/js/chat.js"></script>

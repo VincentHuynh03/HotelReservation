@@ -1,4 +1,4 @@
-﻿namespace ReservationHotel.Models.Hubs
+﻿namespace ReservationHotel.Hubs
 {
     public interface ILearningHubClient
     {

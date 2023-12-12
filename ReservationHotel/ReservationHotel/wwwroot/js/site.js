@@ -1,13 +1,13 @@
 ﻿//Create new instance HubConnectionBuilder
 const connection = new signalR.HubConnectionBuilder()
-    .withUrl("/askHub")
-    .configureLogging(signalR.LogLevel.Information)
+    .withUrl("/Home/ServiceClientèle/askHub")
+    .configureLogging(signalR.LogLevel.Information) // Configuration du niveau de 
     .build(); // Create new HubConnection object
 
 // Define a function de reception des messages du hub
 connection.on("ReceiveMessage", (message) => {
     // prepend le message recu a un element dans le DOM avec l'id 'signalr-message-panel'
-    $('signalr-message-panel').prepend($('<div />').text(message));
+    $('#signalr-message-panel').prepend($('<div />').text(message));
 });
 
 // Gestionnaire d'evenement pour le clic sur le bouton id 'btn-broadcast'
@@ -16,8 +16,7 @@ $('#btn-broadcast').click(function () {
     var message = $('#broadcast').val();
 
     // Invocation de la methode cote serveur "BroadcastMessage" avec le message specifie
-    connection.invoke("BroadcastMessage", message).catch(err =>
-        console.error(err.toString()));
+    connection.invoke("BroadcastMessage", message).catch(err => console.error(err.toString()));
 });
 
 // Fonction asynchrone pour démarrer la connexion

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace ReservationHotel.Models.Hubs
+namespace ReservationHotel.Hubs
 {
     public class AskHub : Hub<ILearningHubClient>
     {
