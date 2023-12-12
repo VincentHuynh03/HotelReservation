@@ -3,6 +3,8 @@ using ReservationHotel.Models;
 using ReservationHotel.Models.Hubs;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http;
+using ReservationHotel.Settings;
+using ReservationHotel.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,6 +45,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 
 
 
+builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("TwilioSettings"));
+builder.Services.AddScoped<ISMSSenderService, SMSSenderService>();
 
 builder.Services.AddRazorPages();
 
