@@ -1,53 +1,63 @@
 ﻿using Microsoft.AspNetCore.SignalR.Client;
+//Importation du module SignalR.Client
 
-// Demande à l'utilisateur de spécifier l'URL du SignalR Hub
+// Affiche un message demandant à l'utilisateur de spécifier l'URL du hub SignalR
 Console.WriteLine("Veuillez spécifier l'URL du SignalR Hub");
 
 // Lit l'URL saisi par l'utilisateur depuis la console
 var url = Console.ReadLine();
 
-// Crée une instance de HubConnection en utilisant le HubConnectionBuilder avec l'URL spécifiée
+// Crée une connexion au hub SignalR en utilisant l'URL spécifiée
 var hubConnection = new HubConnectionBuilder()
  .WithUrl(url)
  .Build();
 
 // Définit une fonction de rappel pour le message "ReceiveMessage" du hub
-hubConnection.On<string>("ReceiveMessage", message => Console.WriteLine($"SignalR Hub Message: {message}"));
+hubConnection.On<string>("ReceiveMessage", message => Console.WriteLine($"Message du hub SignalR : {message}"));
 try
 {
-    // Démarre la connexion au hub SignalR de manière asynchrone
+    // Tente de démarrer la connexion au hub SignalR de manière asynchrone
     await hubConnection.StartAsync();
-
-    // Initialise une variable booléenne pour contrôler la boucle while
     var running = true;
-
     // Boucle principale
     while (running)
     {
+        var message = string.Empty;
         // Demande à l'utilisateur de spécifier une action
-        Console.WriteLine("Veuillez préciser l'action:");
-        Console.WriteLine("0 - diffusé à tous");
+        Console.WriteLine("Veuillez préciser l'action :");
+        Console.WriteLine("0 - diffuser à tous");
+        Console.WriteLine("1 - envoyer aux autres");
+        Console.WriteLine("2 - envoyer à soi-même");
         Console.WriteLine("exit - Quitter le programme");
+
+        // Lit l'action saisie par l'utilisateur depuis la console
         var action = Console.ReadLine();
-
-        // Demande à l'utilisateur de préciser le message
-        Console.WriteLine("Merci de préciser le message:");
-        var message = Console.ReadLine();
-
+        
+        // Demande à l'utilisateur de spécifier le message
+        Console.WriteLine("Veuillez préciser le message :");
+        message = Console.ReadLine();
+        
         // Gestion des différentes actions
         switch (action)
         {
             case "0":
-                // Envoie un message au hub SignalR avec le nom "BroadcastMessage" et le message spécifié        await hubConnection.SendAsync("BroadcastMessage", message);
+                // Envoie un message au hub SignalR avec le nom "BroadcastMessage"
                 await hubConnection.SendAsync("BroadcastMessage", message);
                 break;
+            case "1":
+                // Envoie un message au hub SignalR avec le nom "SendToOthers"
+                await hubConnection.SendAsync("SendToOthers", message);
+                break;
+            case "2":
+                // Envoie un message au hub SignalR avec le nom "SendToCaller"
+                await hubConnection.SendAsync("SendToCaller", message);
+                break;
             case "exit":
-                // Modifie la variable pour sortir de la boucle while et terminer le programme
-                 running = false;
+                // Modifie la variable pour sortir de la boucle et terminer le programme
+                running = false;
                 break;
             default:
-                // Affiche un message en cas d'action non valide
-                Console.WriteLine("Invalid action specified");
+                Console.WriteLine("Action spécifiée non valide");
                 break;
         }
     }

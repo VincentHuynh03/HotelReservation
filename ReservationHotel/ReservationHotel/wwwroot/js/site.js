@@ -19,6 +19,24 @@ $('#btn-broadcast').click(function () {
     connection.invoke("BroadcastMessage", message).catch(err => console.error(err.toString()));
 });
 
+// Gestionnaire d'événement pour le clic sur le bouton avec l'id 'btn-others-message'
+$('#btn-others-message').click(function () {
+ // Récupération du message à envoyer aux autres clients depuis un élément avec l'id 'others - message'
+    var message = $('#others-message').val();
+
+    // Invocation de la méthode côté serveur "SendToOthers" avec le message spécifié
+    connection.invoke("SendToOthers", message).catch(err => console.error(err.toString()));
+});
+
+// Gestionnaire d'événement pour le clic sur le bouton avec l'id 'btn-self-message'
+$('#btn-self-message').click(function () {
+    // Récupération du message à envoyer à soi-même depuis un élément avec l'id 'selfmessage'
+    var message = $('#self-message').val();
+    // Invocation de la méthode côté serveur "SendToCaller" avec le message spécifié
+    connection.invoke("SendToCaller", message).catch(err =>
+        console.error(err.toString()));
+});
+
 // Fonction asynchrone pour démarrer la connexion
 async function start() {
     try {
