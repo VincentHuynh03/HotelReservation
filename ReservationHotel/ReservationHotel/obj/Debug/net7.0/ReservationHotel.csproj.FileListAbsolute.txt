@@ -1205,3 +1205,10 @@ C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHote
 D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
 D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
 D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Common.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Core.dll
