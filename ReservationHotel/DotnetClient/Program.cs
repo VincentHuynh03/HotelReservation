@@ -23,16 +23,35 @@ try
     while (running)
     {
         var message = string.Empty;
+        var groupName = string.Empty;
+
         // Demande à l'utilisateur de spécifier une action
         Console.WriteLine("Veuillez préciser l'action :");
         Console.WriteLine("0 - diffuser à tous");
         Console.WriteLine("1 - envoyer aux autres");
         Console.WriteLine("2 - envoyer à soi-même");
+        Console.WriteLine("3 - envoyer à un individu");
+        Console.WriteLine("4 - envoyer à un groupe");
+        Console.WriteLine("5 - ajouter un utilisateur à un groupe");
+        Console.WriteLine("6 - supprimer un utilisateur d'un groupe");
         Console.WriteLine("exit - Quitter le programme");
 
         // Lit l'action saisie par l'utilisateur depuis la console
         var action = Console.ReadLine();
-        
+
+        // Si l'action n'est pas liée à l'ajout ou à la suppression d'un utilisateur d'un groupe, demande le message
+        if (action != "5" && action != "6")
+        {
+            Console.WriteLine("Veuillez spécifier le message :");
+            message = Console.ReadLine();
+        }
+        // Si l'action est liée à l'envoi à un groupe, à l'ajout ou à la suppression d'un utilisateur d'un groupe, demande le nom du groupe
+        if (action == "4" || action == "5" || action == "6")
+        {
+            Console.WriteLine("Veuillez spécifier le nom du groupe :");
+            groupName = Console.ReadLine();
+        }
+
         // Demande à l'utilisateur de spécifier le message
         Console.WriteLine("Veuillez préciser le message :");
         message = Console.ReadLine();
@@ -51,6 +70,25 @@ try
             case "2":
                 // Envoie un message au hub SignalR avec le nom "SendToCaller"
                 await hubConnection.SendAsync("SendToCaller", message);
+                break;
+            case "3":
+                // Demande à l'utilisateur de spécifier l'ID de connexion de l'individu
+                Console.WriteLine("Veuillez préciser l'ID de connexion :");
+                var connectionId = Console.ReadLine();
+                // Envoie un message au hub SignalR avec le nom "SendToIndividual"
+                await hubConnection.SendAsync("SendToIndividual", connectionId, message);
+                break;
+            case "4":
+                // Envoie le message à un groupe spécifié
+                hubConnection.SendAsync("SendToGroup", groupName, message).Wait();
+                break;
+            case "5":
+                // Ajoute l'utilisateur à un groupe spécifié
+                hubConnection.SendAsync("AddUserToGroup", groupName).Wait();
+                break;
+            case "6":
+                // Supprime l'utilisateur d'un groupe spécifié
+                hubConnection.SendAsync("RemoveUserFromGroup", groupName).Wait();
                 break;
             case "exit":
                 // Modifie la variable pour sortir de la boucle et terminer le programme

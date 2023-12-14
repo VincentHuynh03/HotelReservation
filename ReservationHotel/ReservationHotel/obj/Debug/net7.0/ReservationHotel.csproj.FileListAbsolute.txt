@@ -1212,3 +1212,7 @@ C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHote
 C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.dll
 C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Common.dll
 C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Core.dll
+D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.dll
+D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Common.dll
+D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Core.dll

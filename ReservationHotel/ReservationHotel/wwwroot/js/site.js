@@ -37,6 +37,40 @@ $('#btn-self-message').click(function () {
         console.error(err.toString()));
 });
 
+// Attache une fonction de rappel à l'événement de clic du bouton avec l'ID 'btn-individualmessage'
+$('#btn-individual-message').click(function () {
+    // Récupère la valeur du champ de saisie de message avec l'ID 'individual-message'
+    var message = $('#individual-message').val();
+    // Récupère la valeur du champ de saisie d'ID de connexion avec l'ID 'connection-for-message'
+    var connectionId = $('#connection-for-message').val();
+    // Utilise SignalR pour invoquer la méthode côté serveur 'SendToIndividual' avec les valeurs récupérées
+    connection.invoke("SendToIndividual", connectionId, message)
+        // Gère les erreurs éventuelles lors de l'invocation de la méthode
+        .catch(err => console.error(err.toString()));
+});
+
+// Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-message'
+$('#btn-group-message').click(function () {
+    var message = $('#group-message').val();
+    var group = $('#group-for-message').val();
+    // Invoque la méthode côté serveur 'SendToGroup' avec le groupe et le message spécifiés
+    connection.invoke("SendToGroup", group, message).catch(err =>
+        console.error(err.toString()));
+});
+// Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-add'
+$('#btn-group-add').click(function () {
+    var group = $('#group-to-add').val();
+    // Invoque la méthode côté serveur 'AddUserToGroup' avec le groupe spécifié
+    connection.invoke("AddUserToGroup", group).catch(err => console.error(err.toString()));
+});
+// Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-remove'
+$('#btn-group-remove').click(function () {
+    var group = $('#group-to-remove').val();
+    // Invoque la méthode côté serveur 'RemoveUserFromGroup' avec le groupe spécifié
+    connection.invoke("RemoveUserFromGroup", group).catch(err =>
+        console.error(err.toString()));
+});
+
 // Fonction asynchrone pour démarrer la connexion
 async function start() {
     try {

@@ -25,6 +25,46 @@
         <!-- Bouton pour déclencher l'envoi du message à soi-même -->
         <button id="btn-self-message">Envoyer à Soi-même</button>
     </div>
+    <!-- Groupe de contrôles pour l'envoi de messages à un utilisateur spécifique -->
+    <div class="control-group">
+        <div>
+            <label for="individual-message">Message</label>
+            <!-- Champ de saisie de texte pour le message à envoyer à un utilisateur spécifique-->
+            <input type="text" id="individual-message" name="individual-message" />
+        </div>
+        <div>
+            <label for="connection-for-message">ID de connexion utilisateur :</label>
+            <!-- Champ de saisie de texte pour spécifier l'ID de connexion de l'utilisateur -->
+            <input type="text" id="connection-for-message" name="connection-for-message" />
+        </div>
+        <!-- Bouton pour déclencher l'envoi du message à un utilisateur spécifique -->
+        <button id="btn-individual-message">Envoyer à un Utilisateur Spécifique</button>
+    </div>
+    <div class="control-group">
+        <div>
+            <label for="group-message">Message</label>
+            <input type="text" id="group-message" name="group-message" />
+        </div>
+        <div>
+            <label for="group-for-message">Nom du groupe</label>
+            <input type="text" id="group-for-message" name="group-for-message" />
+        </div>
+        <button id="btn-group-message">Envoyer au groupe</button>
+    </div>
+    <div class="control-group">
+        <div>
+            <label for="group-to-add">Nom du groupe</label>
+            <input type="text" id="group-to-add" name="group-to-add" />
+        </div>
+        <button id="btn-group-add">Ajouter un utilisateur au groupe</button>
+    </div>
+    <div class="control-group">
+        <div>
+            <label for="group-to-remove">Nom du groupe</label>
+            <input type="text" id="group-to-remove" name="group-to-remove" />
+        </div>
+        <button id="btn-group-remove">Retirer un utilisateur du groupe</button>
+    </div>
     <div class="col-md-7">
         <p>Messages SignalR :</p>
         <pre id="signalr-message-panel"></pre>
