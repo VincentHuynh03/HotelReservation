@@ -1216,3 +1216,4 @@ D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\
 D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.dll
 D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Common.dll
 D:\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Core.dll
+C:\Users\Vince\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll

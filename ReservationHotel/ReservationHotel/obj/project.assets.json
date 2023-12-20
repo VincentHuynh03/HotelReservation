@@ -705,6 +705,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/7.0.14": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Connections.Abstractions/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -5614,6 +5630,21 @@
         "lib/net45/System.Web.WebPages.xml",
         "microsoft.aspnet.webpages.3.3.0.nupkg.sha512",
         "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/7.0.14": {
+      "sha512": "UcvNbAEhSPVrZw9Jzk8MTHPrLzCGWTp280rm07Q665Qa3oNaSbE1tyrx6vnjA0L1bbYtm0FwORxZsQWpRcfl0A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/7.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.7.0.14.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Connections.Abstractions/6.0.0": {
@@ -13171,6 +13202,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNet.Mvc >= 5.3.0",
+      "Microsoft.AspNetCore.Authentication.Google >= 7.0.14",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.13",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.13",
       "Microsoft.AspNetCore.Session >= 2.2.0",
@@ -13189,24 +13221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ligtas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Vince\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+      "projectUniqueName": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
       "projectName": "ReservationHotel",
-      "projectPath": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
-      "packagesPath": "C:\\Users\\Ligtas\\.nuget\\packages\\",
-      "outputPath": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
+      "projectPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\ReservationHotel.csproj",
+      "packagesPath": "C:\\Users\\Vince\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vince\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ligtas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Vince\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13214,7 +13241,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13236,6 +13262,10 @@
           "Microsoft.AspNet.Mvc": {
             "target": "Package",
             "version": "[5.3.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[7.0.14, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -13321,7 +13351,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },

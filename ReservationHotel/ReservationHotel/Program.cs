@@ -47,6 +47,21 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("TwilioSettings"));
 builder.Services.AddScoped<ISMSSenderService, SMSSenderService>();
 
+
+
+builder.Services.AddAuthentication().AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId =
+   builder.Configuration.GetSection("GoogleAuthSettings")
+   .GetValue<string>("ClientId");
+    googleOptions.ClientSecret =
+   builder.Configuration.GetSection("GoogleAuthSettings")
+   .GetValue<string>("ClientSecret");
+});
+
+
+
+
 builder.Services.AddRazorPages();
 
 

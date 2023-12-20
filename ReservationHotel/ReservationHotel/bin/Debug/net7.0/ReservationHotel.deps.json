@@ -9,6 +9,7 @@
       "ReservationHotel/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.Mvc": "5.3.0",
+          "Microsoft.AspNetCore.Authentication.Google": "7.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
           "Microsoft.AspNetCore.Identity.UI": "7.0.13",
           "Microsoft.AspNetCore.Session": "2.2.0",
@@ -644,6 +645,14 @@
           "lib/net45/System.Web.WebPages.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.61130.707"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/7.0.14": {
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "7.0.14.0",
+            "fileVersion": "7.0.1423.52316"
           }
         }
       },
@@ -3462,6 +3471,13 @@
       "sha512": "sha512-2ATJrA8KNx2EpBWNjwy4P+NjQ06cZWjYsTZ5NqGNIHaU/i3NKmtpoaE90NGmVRaKF5rryGfADnvPQ56f61OuWg==",
       "path": "microsoft.aspnet.webpages/3.3.0",
       "hashPath": "microsoft.aspnet.webpages.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/7.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcvNbAEhSPVrZw9Jzk8MTHPrLzCGWTp280rm07Q665Qa3oNaSbE1tyrx6vnjA0L1bbYtm0FwORxZsQWpRcfl0A==",
+      "path": "microsoft.aspnetcore.authentication.google/7.0.14",
+      "hashPath": "microsoft.aspnetcore.authentication.google.7.0.14.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Connections.Abstractions/6.0.0": {
       "type": "package",
