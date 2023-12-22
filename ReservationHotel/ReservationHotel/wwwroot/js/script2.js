@@ -37,10 +37,15 @@ function updateEstimations() {
     // Calcul du total
     var totalPrice = estimationPrice + estimationTaxes;
     document.getElementById('total-price').textContent = totalPrice + '$';
+
+
+
+
 }
 
 // Initialisation des dates d'arrivée et de départ
 var today = new Date();
+var nextDay = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);  // Ajoute 1 jour à la date d'aujourd'hui
 var nextWeek = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);  // Ajoute 7 jours à la date d'aujourd'hui
 
 var formattedToday = formatDate(today);
@@ -53,8 +58,8 @@ document.getElementById('checkin-date').min = formattedToday;
 document.getElementById('checkout-date').min = formattedToday;
 
 // Définition de la date maximale pour les champs de date de départ
-document.getElementById('checkin-date').max = formatDate(nextWeek);
-document.getElementById('checkout-date').max = formatDate(nextWeek);
+// document.getElementById('checkin-date').max = formatDate(nextWeek);
+// document.getElementById('checkout-date').max = formatDate(nextWeek);
 
 //Restriction choix utilisateur dans les champs
 document.getElementById('checkin-date').addEventListener('input', function () {
@@ -74,13 +79,32 @@ document.getElementById('checkout-date').addEventListener('input', function () {
     document.getElementById('checkin-date').max = document.getElementById('checkout-date').value;
 });
 
+function checkDatesAndToggleSubmit() {
+    var checkinDateValue = document.getElementById('checkin-date').value;
+    var checkoutDateValue = document.getElementById('checkout-date').value;
+    var submitButton = document.querySelector("button[type='submit']");
+    var errorMessage = document.getElementById('date-error');
+
+    if (checkinDateValue === checkoutDateValue) {
+        submitButton.disabled = true;
+        errorMessage.style.display = 'block';
+    } else {
+        submitButton.disabled = false;
+        errorMessage.style.display = 'none';
+        updateEstimations();
+    }
+}
+
+document.getElementById('checkin-date').addEventListener('input', checkDatesAndToggleSubmit);
+document.getElementById('checkout-date').addEventListener('input', checkDatesAndToggleSubmit);
+
+// Appel initial pour configurer l'état du bouton et le message d'erreur
+checkDatesAndToggleSubmit();
+
+
 // Appel de la fonction updateEstimations au chargement de la page
 updateEstimations();
 
 document.getElementById('reservation-form').addEventListener('input', updateEstimations);
 
-document.getElementById('reservation-form').addEventListener('submit', function (e) {
-    e.preventDefault();  // Empêche le formulaire d'être soumis normalement
 
-    // ... votre code pour gérer la soumission du formulaire ici ...
-});

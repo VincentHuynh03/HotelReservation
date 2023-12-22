@@ -1526,3 +1526,11 @@ D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\
 D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ReservationHotel.pdb
 D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ReservationHotel.genruntimeconfig.cache
 D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\obj\Debug\net7.0\ref\ReservationHotel.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Common.dll
+C:\Users\Windows\porjetappweb3audricsamuelvincent\ReservationHotel\ReservationHotel\bin\Debug\net7.0\Twilio.AspNet.Core.dll

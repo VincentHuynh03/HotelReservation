@@ -1,29 +1,33 @@
-﻿@{
+﻿@model ReservationHotel.Models.ReservationViewModel
+
+@{
     ViewData["Title"] = "Réserver";
 }
 
 <main>
     <section id="chambre-details">
         <div class="chambre-image">
-            <img src="@Url.Content(Model.Photo)" alt="Chambre">
+            <img src="@Url.Content(Model.Chambre.Photo)" alt="Chambre">
         </div>
         <div class="chambre-info">
-            <h1>Chambre @Model.TypeChambre</h1>
-            <p>@Model.Lit lit(s), @Model.Vue - @Model.Prix$/nuit</p>
+            <h1>Chambre @Model.Chambre.TypeChambre</h1>
+            <p>@Model.Chambre.Lit lit(s), @Model.Chambre.Vue - @Model.Chambre.Prix$/nuit</p>
             <p class="description">
-                @Model.Description
+                @Model.Chambre.Description
             </p>
         </div>
     </section>
     <section id="reservation-form-section">
-        <form id="reservation-form">
+        <form asp-action="Réserver" id="reservation-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label for="checkin-date">Date d'arrivée:</label>
-                <input type="date" id="checkin-date" name="checkin" min="" max="">
+                <label asp-for="Reservation.DateDebut">Date d'arrivée:</label>
+                <input asp-for="Reservation.DateDebut" type="date" id="checkin-date" name="Reservation.DateDebut" />
             </div>
+
             <div class="form-group">
-                <label for="checkout-date">Date de départ:</label>
-                <input type="date" id="checkout-date" name="checkout" min="" max="">
+                <label asp-for="Reservation.DateFin">Date de départ:</label>
+                <input asp-for="Reservation.DateFin" type="date" id="checkout-date" name="Reservation.DateFin" />
             </div>
             <div class="form-group">
                 <label>Nombre de Nuits:</label>
@@ -41,9 +45,13 @@
                 <label>Total:</label>
                 <span id="total-price"></span>
             </div>
+            <input type="hidden" asp-for="Reservation.Annuler" />
+            <input type="hidden" asp-for="Reservation.UserId" />
+            <input type="hidden" asp-for="Reservation.ChambreId" />
             <div class="form-group">
-                <button type="submit">Réserver</button>
+                <button type="submit" value="Réserver">Réserver</button>
             </div>
+            <p id="date-error" class="error-message" style="display: none; color: red;">Les dates d'arrivée et de départ ne peuvent pas être les mêmes.</p>
         </form>
     </section>
 </main>

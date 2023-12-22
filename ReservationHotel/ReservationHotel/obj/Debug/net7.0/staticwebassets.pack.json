@@ -1,307 +1,307 @@
 {
   "Files": [
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ReservationHotel.bundle.scp.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ReservationHotel.bundle.scp.css",
       "PackagePath": "staticwebassets\\ReservationHotel.bundle.scp.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles2.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles2.css",
       "PackagePath": "staticwebassets\\css\\styles2.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles3.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\css\\styles3.css",
       "PackagePath": "staticwebassets\\css\\styles3.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre1.jpg",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre1.jpg",
       "PackagePath": "staticwebassets\\images\\chambre1.jpg"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre2.jpg",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre2.jpg",
       "PackagePath": "staticwebassets\\images\\chambre2.jpg"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre3.jpg",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre3.jpg",
       "PackagePath": "staticwebassets\\images\\chambre3.jpg"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre4.jpg",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre4.jpg",
       "PackagePath": "staticwebassets\\images\\chambre4.jpg"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre5.jpg",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre5.jpg",
       "PackagePath": "staticwebassets\\images\\chambre5.jpg"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre6.jpg",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\chambre6.jpg",
       "PackagePath": "staticwebassets\\images\\chambre6.jpg"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\logo_FreeRooms.png",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\images\\logo_FreeRooms.png",
       "PackagePath": "staticwebassets\\images\\logo_FreeRooms.png"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\chat.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\chat.js",
       "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\script2.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\script2.js",
       "PackagePath": "staticwebassets\\js\\script2.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Windows\\porjetappweb3audricsamuelvincent\\ReservationHotel\\ReservationHotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

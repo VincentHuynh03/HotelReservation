@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ReservationHotel.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ReservationHotel.Controllers
 {
@@ -47,8 +48,8 @@ namespace ReservationHotel.Controllers
         }
 
 
-        // GET: Chambres/Réserver/5
-        public async Task<IActionResult> Réserver(int? id)
+        // GET: Chambres/Réserver/5 Task<IActionResult>
+        public async Task<IActionResult> Réserver(int id)
         {
             if (id == null || _context.Chambres == null)
             {
@@ -62,7 +63,29 @@ namespace ReservationHotel.Controllers
                 return NotFound();
             }
 
-            return View(chambre);
+            var viewModel = new ReservationViewModel
+            {
+                Chambre = chambre,
+                Reservation = new Reservation
+                {
+                    ChambreId = id,
+                    Annuler = false,
+                    UserId = 1,
+                }
+            };
+            ViewData["ChambreId"] = new SelectList(_context.Chambres, "ChambreId", "Description");
+            ViewData["UserId"] = new SelectList(_context.Utilisateurs, "UserId", "Email");
+
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Réserver(ReservationViewModel viewModel)
+        {
+            _context.Reservations.Add(viewModel.Reservation);
+            _context.SaveChanges();
+            return RedirectToAction("Index"); // Modifiez selon vos besoins
         }
 
         public IActionResult ServiceClientèle()
