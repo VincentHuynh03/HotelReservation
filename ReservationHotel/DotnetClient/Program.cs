@@ -14,6 +14,10 @@ var hubConnection = new HubConnectionBuilder()
 
 // Définit une fonction de rappel pour le message "ReceiveMessage" du hub
 hubConnection.On<string>("ReceiveMessage", message => Console.WriteLine($"Message du hub SignalR : {message}"));
+
+// Définit une fonction de rappel pour le message "ReceiveGroupMessage" du hub
+hubConnection.On<string>("ReceiveGroupMessage", message => Console.WriteLine($"Message du groupe : {message}"));
+
 try
 {
     // Tente de démarrer la connexion au hub SignalR de manière asynchrone
@@ -80,7 +84,7 @@ try
                 break;
             case "4":
                 // Envoie le message à un groupe spécifié
-                hubConnection.SendAsync("SendToGroup", groupName, message).Wait();
+                hubConnection.SendAsync("SendToGroupAdmin", groupName, message).Wait();
                 break;
             case "5":
                 // Ajoute l'utilisateur à un groupe spécifié
