@@ -60,3 +60,34 @@ D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\
 D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
 D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
 D:\Fuckingup\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\DotnetClient.exe
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\DotnetClient.deps.json
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\DotnetClient.runtimeconfig.json
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\DotnetClient.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\DotnetClient.pdb
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\bin\Debug\net7.0\System.IO.Pipelines.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.AssemblyReference.cache
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfoInputs.cache
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.AssemblyInfo.cs
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CoreCompileInputs.cache
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.csproj.CopyComplete
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\refint\DotnetClient.dll
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.pdb
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\DotnetClient.genruntimeconfig.cache
+D:\Fuckingup\New folder (2)\porjetappweb3audricsamuelvincent\ReservationHotel\DotnetClient\obj\Debug\net7.0\ref\DotnetClient.dll

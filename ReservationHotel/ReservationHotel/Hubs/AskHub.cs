@@ -10,7 +10,7 @@ namespace ReservationHotel.Hubs
         //public async Task SendMessage(Message message) =>
         //    await Clients.All.SendAsync("receiveMessage", message);
 
-        // Diffuse un message a tous les clients connectes
+        // Diffuse un message a tous les client0s connectes
         public async Task BroadcastMessage(string user,string message)
         {
             // Appeller la methode ReceiveMessage de tous les client

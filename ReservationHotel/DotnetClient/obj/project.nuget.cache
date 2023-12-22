@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r4C/8cj9ediqWVKnpO/JJUZRcYuLM9NHZy/4uWcNDXCWLxLIatV9LOIie9N2pEB4TthD+NH71Le8VyXvgB5YSQ==",
+  "dgSpecHash": "UjWKLGnrWnAkhZO6kyeymw4/iXBrNLzpNoyZ9Hb3NFt1DLdgTIIfiEh5T1WbPoJwlRw3y1xjQWCK75XhkVFM6Q==",
   "success": true,
-  "projectFilePath": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj",
+  "projectFilePath": "D:\\Fuckingup\\New folder (2)\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ligtas\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.0\\microsoft.aspnetcore.connections.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Ligtas\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\6.0.0\\microsoft.aspnetcore.http.connections.client.6.0.0.nupkg.sha512",

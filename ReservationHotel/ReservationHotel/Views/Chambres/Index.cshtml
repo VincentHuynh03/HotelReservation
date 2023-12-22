@@ -29,6 +29,8 @@
                 <p class="room-price">Prix par nuit: @item.Prix$</p>
                 <p class="room-beds">Lits: @item.Lit</p>
                 <p class="room-view">Vue: @item.Vue</p>
+                <p class="room-beds">Date Disponibilite Debut : @item.CheckIn</p>
+                <p class="room-view">Date Disponibilite Fin: @item.CheckOut</p>
             </div>
             <form class="form_modifier">
                 <button class="edit-room" asp-action="Edit" asp-route-id="@item.ChambreId">Modifier</button>

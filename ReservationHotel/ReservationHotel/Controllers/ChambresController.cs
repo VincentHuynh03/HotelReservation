@@ -55,7 +55,7 @@ namespace ReservationHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ChambreId,NumeroChambre,Description,TypeChambre,QuantitePersonnes,Prix,MaxPersonne,Vue,Lit,Photo")] Chambre chambre)
+        public async Task<IActionResult> Create([Bind("ChambreId,NumeroChambre,Description,TypeChambre,QuantitePersonnes,Prix,MaxPersonne,Vue,Lit,Photo,CheckIn,CheckOut")] Chambre chambre)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace ReservationHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ChambreId,NumeroChambre,Description,TypeChambre,QuantitePersonnes,Prix,MaxPersonne,Vue,Lit,Photo")] Chambre chambre)
+        public async Task<IActionResult> Edit(int id, [Bind("ChambreId,NumeroChambre,Description,TypeChambre,QuantitePersonnes,Prix,MaxPersonne,Vue,Lit,Photo,CheckIn,CheckOut")] Chambre chambre)
         {
             if (id != chambre.ChambreId)
             {
