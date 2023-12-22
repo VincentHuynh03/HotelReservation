@@ -10,23 +10,37 @@ connection.on("ReceiveMessage", (message) => {
     $('#signalr-message-panel').prepend($('<div />').text(message));
 });
 
+connection.on("ReceiveGroupMessage", (message) => {
+    // prepend le message recu a un element dans le DOM avec l'id 'signalr-message-panel'
+    $('#signalr-group-message-panel').prepend($('<div />').text(message));
+});
+
 // Gestionnaire d'evenement pour le clic sur le bouton id 'btn-broadcast'
 $('#btn-broadcast').click(function () {
     // receive message from diffusion avec id 'broadcast'
     var message = $('#broadcast').val();
-
+    var user = $('#userInput').val();
     // Invocation de la methode cote serveur "BroadcastMessage" avec le message specifie
-    connection.invoke("BroadcastMessage", message).catch(err => console.error(err.toString()));
+    connection.invoke("BroadcastMessage",user, message).catch(err => console.error(err.toString()));
 });
 
 // Gestionnaire d'événement pour le clic sur le bouton avec l'id 'btn-others-message'
+//$('#btn-others-message').click(function () {
+//    // Récupération du message à envoyer aux autres clients depuis un élément avec l'id 'others - message'
+//    var message = $('#others-message').val();
+
+//    // Invocation de la méthode côté serveur "SendToOthers" avec le message spécifié
+//    connection.invoke("SendToOthers", message).catch(err => console.error(err.toString()));
+//});
+
 $('#btn-others-message').click(function () {
- // Récupération du message à envoyer aux autres clients depuis un élément avec l'id 'others - message'
-    var message = $('#others-message').val();
+    // Récupération du message à envoyer aux autres clients depuis un élément avec l'id 'others - message'
+    var user = $('#others-message').val();
 
     // Invocation de la méthode côté serveur "SendToOthers" avec le message spécifié
-    connection.invoke("SendToOthers", message).catch(err => console.error(err.toString()));
+    connection.invoke("BroadcastConnexion", user).catch(err => console.error(err.toString()));
 });
+
 
 // Gestionnaire d'événement pour le clic sur le bouton avec l'id 'btn-self-message'
 $('#btn-self-message').click(function () {
@@ -53,8 +67,10 @@ $('#btn-individual-message').click(function () {
 $('#btn-group-message').click(function () {
     var message = $('#group-message').val();
     var group = $('#group-for-message').val();
+    var user = $('#group-user').val();
+
     // Invoque la méthode côté serveur 'SendToGroup' avec le groupe et le message spécifiés
-    connection.invoke("SendToGroup", group, message).catch(err =>
+    connection.invoke("SendToGroup", group, message , user).catch(err =>
         console.error(err.toString()));
 });
 // Associe une fonction de rappel au clic du bouton avec l'ID 'btn-group-add'

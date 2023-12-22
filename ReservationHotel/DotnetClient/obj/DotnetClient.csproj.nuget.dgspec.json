@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj": {}
+    "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj": {}
   },
   "projects": {
-    "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj": {
+    "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj",
+        "projectUniqueName": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj",
         "projectName": "DotnetClient",
-        "projectPath": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj",
+        "projectPath": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\DotnetClient.csproj",
         "packagesPath": "C:\\Users\\Ligtas\\.nuget\\packages\\",
-        "outputPath": "D:\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\obj\\",
+        "outputPath": "D:\\Fuckingup\\porjetappweb3audricsamuelvincent\\ReservationHotel\\DotnetClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,14 +1,52 @@
 ﻿@page
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+
 <div class="container">
     <div class="col-md-4">
         <div class="control-group">
             <div>
-                <label for="broadcast">Message</label>
-                <input type="text" id="broadcast" name="broadcast" />
+                <input type="text" id="userInput" value="@UserManager.GetUserName(User)" readonly/>
             </div>
-            <button id="btn-broadcast">Diffuser</button>
+            <div>
+                <input type="text" id="broadcast" name="broadcast" placeholder="Écrivez votre message..." />
+            </div>
+            <button id="btn-broadcast">Envoyer</button>
         </div>
         <div class="control-group">
+            <div>
+                <input type="hidden" id="others-message" value="@UserManager.GetUserName(User)" name="others-message" />
+            </div>
+            <button id="btn-others-message">Demander Admin</button>
+        </div>
+        <div class="control-group">
+            <div>
+                <label for="group-to-add">Join Chat Room</label>
+                <input type="text" id="group-to-add" name="group-to-add" placeholder="Écrivez nom..."/>
+            </div>
+            <button id="btn-group-add">Joigner le room</button>
+        </div>
+        <div class="control-group">
+            <div>
+                <label for="group-for-message">Nom du groupe</label>
+                <input type="text" id="group-for-message" name="group-for-message" placeholder="Écrivez votre message..." />
+            </div>
+            <div>
+                <label for="group-message">Message</label>
+                <input type="text" id="group-message" name="group-message" placeholder="Écrivez nom chat..." />
+            </div>
+            <input type="hidden" id="group-user" value="@UserManager.GetUserName(User)" name="others-message" />
+            <button id="btn-group-message">Envoyer au groupe</button>
+        </div>
+        <div class="chatroom">
+            <p>Public Chat Room :</p>
+            <pre style="font-size: 16px; padding: 10px" id="signalr-message-panel"></pre>
+        </div>
+        <div class="grouproom">
+            <p>Admin Chat Room :</p>
+            <pre style="font-size: 16px; padding: 10px" id="signalr-group-message-panel"></pre>
+        </div>
+        @* <div class="control-group">
             <div>
                 <label for="others-message">Message</label>
                 <input type="text" id="others-message" name="others-message" />
@@ -64,9 +102,5 @@
             <input type="text" id="group-to-remove" name="group-to-remove" />
         </div>
         <button id="btn-group-remove">Retirer un utilisateur du groupe</button>
-    </div>
-    <div class="col-md-7">
-        <p>Messages SignalR :</p>
-        <pre id="signalr-message-panel"></pre>
-    </div>
+    </div> *@
 </div>
